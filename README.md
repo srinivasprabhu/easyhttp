@@ -44,13 +44,13 @@ If its not set by default INFO level is used within the api
     puts response.code         # get http return code
          
 
-## Future support
+## Features planned for future releases 
 
-   multipart
-   re directions
-   more http methods
-   oauth
-   proxy support
+    multipart
+    re directions
+    more http methods
+    oauth
+    proxy support
 
 ## Contributing
 
