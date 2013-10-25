@@ -33,7 +33,10 @@ If its not set by default INFO level is used within the api
 
     response = Easyhttp.get url,headers
     response = Easyhttp.post url,data,headers
+    response = Easyhttp.put url,data,headers
     response = Easyhttp.delete url
+    response = Easyhttp.post url,data
+    response = Easyhttp.get url
 
     puts response.to_hash      # get headers from response
     puts response.body         # get http response body
