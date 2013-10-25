@@ -44,6 +44,14 @@ If its not set by default INFO level is used within the api
     puts response.code         # get http return code
          
 
+## Future support
+
+   multipart
+   re directions
+   more http methods
+   oauth
+   proxy support
+
 ## Contributing
 
 1. Fork it
