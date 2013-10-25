@@ -19,23 +19,26 @@ Or install it yourself as:
 
 ## Usage
 
-# Setting log level for the gem
-Easyhttp.setLogLevel "DEBUG"   # If its not set by default INFO level is used within the api
+Setting log level for the gem
+
+    Easyhttp.setLogLevel "DEBUG"   
+
+If its not set by default INFO level is used within the api
 
 # Example Code Snippet 
 
-url = "https://example.com/api"
-headers = {"content-type"=>"application/json","accept-type"=>"application/xml","date"=>"Fri, 25 Oct 2013 13:54:23 GMT"}
-data = {"userName"=>"srinivasprabhu","Password"=>"sdsdeffwedewd"}
+    url = "https://example.com/api"
+    headers = {"content-type"=>"application/json","accept-type"=>"application/xml","date"=>"Fri, 25 Oct 2013 13:54:23 GMT"}
+    data = {"userName"=>"srinivasprabhu","Password"=>"sdsdeffwedewd"}
 
-response = Easyhttp.get url,headers
-response = Easyhttp.post url,data,headers
-response = Easyhttp.delete url
+    response = Easyhttp.get url,headers
+    response = Easyhttp.post url,data,headers
+    response = Easyhttp.delete url
 
-puts response.to_hash      # get headers from response
-puts response.body         # get http response body
-puts response.msg          # get http response message
-puts response.code         # get http return code
+    puts response.to_hash      # get headers from response
+    puts response.body         # get http response body
+    puts response.msg          # get http response message
+    puts response.code         # get http return code
          
 
 ## Contributing

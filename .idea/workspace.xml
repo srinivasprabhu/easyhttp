@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fd7540c-5bef-4cc6-8d2e-9d7f8e52749b" name="Default" comment="" />
+    <list default="true" id="1fd7540c-5bef-4cc6-8d2e-9d7f8e52749b" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.README.md.swp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="easyhttp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,7 +43,7 @@
       <file leaf-file-name="easyhttp.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/easyhttp.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="41" selection-start="622" selection-end="622" vertical-scroll-proportion="0.49217638">
+            <state line="36" column="41" selection-start="919" selection-end="919" vertical-scroll-proportion="0.75817925">
               <folding />
             </state>
           </provider>
@@ -473,7 +476,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/easyhttp.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="41" selection-start="622" selection-end="622" vertical-scroll-proportion="0.49217638">
+        <state line="36" column="41" selection-start="919" selection-end="919" vertical-scroll-proportion="0.75817925">
           <folding />
         </state>
       </provider>
