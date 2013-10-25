@@ -6,14 +6,13 @@ require 'easyhttp/version'
 Gem::Specification.new do |gem|
   gem.name          = "easyhttp"
   gem.version       = Easyhttp::VERSION
-  gem.authors       = ["sramanna"]
-  gem.email         = ["Cde\302\2432wsX"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.authors       = "Srinivas Prabhu Ramanna"
+  gem.email         = "Srinivas.prabhur@gmail.com"
+  gem.description   = "This is a wrapper around ruby http lib"
+  gem.summary       = "Hides the complexity and provides a simple interface to interact with ruby http class"
   gem.homepage      = ""
 
-  gem.files         = `git ls-files`.split($/)
-  gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
-  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.require_paths = ["lib"]
+  gem.files = %w(easyhttp.gemspec)
+  gem.files += Dir.glob("lib/**/*.rb")
+  gem.files += Dir.glob("lib/**/*.yaml")
 end
