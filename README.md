@@ -1,7 +1,10 @@
 # Easyhttp
 
-Easyhttp is tiny wrapper around http class of ruby.
-Currently it supports get,post,put,delete and also supports both ssl and non-ssl based http requests.
+ Easyhttp is a wrapper around http class of ruby. This http client was written to abstract some underlying http settings and configurations.
+  
+ Easyhttp provides a simple to use class methods for users to send and receive data from web servers.
+
+ Currently it supports get,post,put,delete http methods and supports both ssl and non-ssl connections.
 
 ## Installation
 
